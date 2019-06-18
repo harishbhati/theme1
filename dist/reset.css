@@ -1,0 +1,26 @@
+/* line 1, src/reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 9, src/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 13, src/reset.scss */
+body {
+  background: #fff;
+}
+
+/* line 19, src/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
