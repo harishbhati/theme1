@@ -1,4 +1,3 @@
-<h2>Awesome Facts</h2>
 <ul class="counter">
     <li>
         <div class="counter-block">
