@@ -21,17 +21,23 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-pencil2:before {
+    content: "\e906";
+  }
+  .icon-library:before {
+    content: "\e921";
+  }
+  .icon-calculator:before {
+    content: "\e940";
+  }
+  .icon-user-tie:before {
+    content: "\e976";
+  }
   .icon-google-plus:before {
     content: "\ea8b";
   }
-  .icon-google-plus2:before {
-    content: "\ea8c";
-  }
   .icon-facebook:before {
     content: "\ea90";
-  }
-  .icon-facebook2:before {
-    content: "\ea91";
   }
   .icon-twitter:before {
     content: "\ea96";

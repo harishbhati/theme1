@@ -3,24 +3,70 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
-/* line 9, src/reset.scss */
+/* line 7, src/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 13, src/reset.scss */
+/* line 11, src/reset.scss */
 body {
   background: #fff;
+  font: normal normal normal 15px/1.3 arial,sans-serif;
 }
 
-/* line 19, src/reset.scss */
+/* line 15, src/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 18, src/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* line 22, src/reset.scss */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* line 26, src/reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* line 30, src/reset.scss */
+h1 {
+  font-size: 48px;
+}
+
+/* line 33, src/reset.scss */
+h2 {
+  font-size: 42px;
+}
+
+/* line 36, src/reset.scss */
+h3 {
+  font-size: 36px;
+}
+
+/* line 39, src/reset.scss */
+h4 {
+  font-size: 30px;
+}
+
+/* line 42, src/reset.scss */
+h5 {
+  font-size: 24px;
+}
+
+/* line 45, src/reset.scss */
+h6 {
+  font-size: 18px;
 }
