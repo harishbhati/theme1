@@ -4,7 +4,7 @@
         <div class="slider-caption">
             <h4>Caption Title 1</h4>
             <p>It is simply dummy text of the printing and typesetting industry</p>
-            <a class="slider-button" href="#" title="Learn More">Learn More</a>
+            <a class="button slider-button" href="#" title="Learn More">Learn More</a>
         </div>
     </li>
     <li>
@@ -12,7 +12,7 @@
         <div class="slider-caption">
             <h4>Caption Title 2</h4>
             <p>It is simply dummy text of the printing and typesetting industry</p>
-            <a class="slider-button" href="#" title="Learn More">Learn More</a>
+            <a class="button slider-button" href="#" title="Learn More">Learn More</a>
         </div>
     </li>
     <li>
@@ -20,7 +20,7 @@
         <div class="slider-caption">
             <h4>Caption Title 3</h4>
             <p>It is simply dummy text of the printing and typesetting industry</p>
-            <a class="slider-button" href="#" title="Learn More">Learn More</a>
+            <a class="button slider-button" href="#" title="Learn More">Learn More</a>
         </div>
     </li>
 </ul>
