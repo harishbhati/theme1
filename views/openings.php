@@ -1,42 +1,50 @@
-<ul class="opening">
-    <li>
+<ul class="opening grid">
+    <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="opening-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
         </div>
-        <h4 class="opening-title">Card Title 1</h4>
-        <p class="opening-dis">It is simply dummy text of the printing and typesetting industry.
-            It is simply dummy text of the printing and typesetting industry.
-        </p>
-        <a class="opening-link" href="#" title="Read More">Read More</a>
+        <h4 class="card-title">Card Title 1</h4>
+        <div class="card-description">
+            <p class="card-dis">It is simply dummy text of the printing and typesetting industry.
+                It is simply dummy text of the printing and typesetting industry.
+            </p>
+            <a class="button card-link" href="#" title="Read More">Read More</a>
+        </div>
     </li>
-    <li>
+    <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="opening-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
         </div>
-        <h4 class="opening-title">Card Title 1</h4>
-        <p class="opening-dis">It is simply dummy text of the printing and typesetting industry.
-            It is simply dummy text of the printing and typesetting industry.
-        </p>
-        <a class="opening-link" href="#" title="Read More">Read More</a>
+        <h4 class="card-title">Card Title 2</h4>
+        <div class="card-description">
+            <p class="card-dis">It is simply dummy text of the printing and typesetting industry.
+                It is simply dummy text of the printing and typesetting industry.
+            </p>
+            <a class="button card-link" href="#" title="Read More">Read More</a>
+        </div>
     </li>
-    <li>
+    <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="opening-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
         </div>
-        <h4 class="opening-title">Card Title 1</h4>
-        <p class="opening-dis">It is simply dummy text of the printing and typesetting industry.
-            It is simply dummy text of the printing and typesetting industry.
-        </p>
-        <a class="opening-link" href="#" title="Read More">Read More</a>
+        <h4 class="card-title">Card Title 3</h4>
+        <div class="card-description">
+            <p class="card-dis">It is simply dummy text of the printing and typesetting industry.
+                It is simply dummy text of the printing and typesetting industry.
+            </p>
+            <a class="button card-link" href="#" title="Read More">Read More</a>
+        </div>
     </li>
-    <li>
+    <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="opening-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
         </div>
-        <h4 class="opening-title">Card Title 1</h4>
-        <p class="opening-dis">It is simply dummy text of the printing and typesetting industry.
-            It is simply dummy text of the printing and typesetting industry.
-        </p>
-        <a class="opening-link" href="#" title="Read More">Read More</a>
+        <h4 class="card-title">Card Title 4</h4>
+        <div class="card-description">
+            <p class="card-dis">It is simply dummy text of the printing and typesetting industry.
+                It is simply dummy text of the printing and typesetting industry.
+            </p>
+            <a class="button card-link" href="#" title="Read More">Read More</a>
+        </div>
     </li>
 </ul>

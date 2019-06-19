@@ -36,37 +36,44 @@ img {
 }
 
 /* line 26, src/reset.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 10px;
-  font-weight: bold;
+a {
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* line 30, src/reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Dosis", "Poppins", sans-serif;
+}
+
+/* line 35, src/reset.scss */
 h1 {
   font-size: 48px;
 }
 
-/* line 33, src/reset.scss */
+/* line 38, src/reset.scss */
 h2 {
   font-size: 42px;
 }
 
-/* line 36, src/reset.scss */
+/* line 41, src/reset.scss */
 h3 {
   font-size: 36px;
 }
 
-/* line 39, src/reset.scss */
+/* line 44, src/reset.scss */
 h4 {
   font-size: 30px;
 }
 
-/* line 42, src/reset.scss */
+/* line 47, src/reset.scss */
 h5 {
   font-size: 24px;
 }
 
-/* line 45, src/reset.scss */
+/* line 50, src/reset.scss */
 h6 {
   font-size: 18px;
 }

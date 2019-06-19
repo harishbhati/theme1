@@ -1,0 +1,174 @@
+/* line 3, src/common.scss */
+.text-primary {
+  color: #009686;
+}
+
+/* line 6, src/common.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 9, src/common.scss */
+.page-title {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+/* line 15, src/common.scss */
+.page-title:before, .page-title:after {
+  content: '';
+  position: absolute;
+  top: 55%;
+  width: 50px;
+  height: 2px;
+  background: #009686;
+}
+
+/* line 23, src/common.scss */
+.page-title:before {
+  right: 100%;
+}
+
+/* line 26, src/common.scss */
+.page-title:after {
+  left: 100%;
+}
+
+/* line 30, src/common.scss */
+.sub-title {
+  font-size: 18px;
+}
+
+/* line 33, src/common.scss */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* line 38, src/common.scss */
+.container-fluid {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 42, src/common.scss */
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 48, src/common.scss */
+.icon-round {
+  font-size: 2rem;
+  border: 1px solid #009686;
+  background: #fff;
+  color: #009686;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  transition: .5s all ease-in-out;
+}
+
+/* line 61, src/common.scss */
+.icon-round:hover {
+  border: 1px solid #009686;
+  background: #009686;
+  color: #fff;
+}
+
+/* line 67, src/common.scss */
+.button {
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #009686;
+  border: 2px solid #009686;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  border-radius: 25px;
+  transition: .5s all ease-in-out;
+}
+
+/* line 76, src/common.scss */
+.button:hover {
+  color: #fff;
+  border: 2px solid #009686;
+  background: #009686;
+}
+
+/* line 82, src/common.scss */
+.card-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 85, src/common.scss */
+.card-overlay:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 150, 134, 0.5);
+  z-index: 1;
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+
+/* line 97, src/common.scss */
+.card-overlay .card-description {
+  position: absolute;
+  width: 100%;
+  bottom: 12em;
+  margin: 0;
+  opacity: 0;
+  text-align: center;
+  color: #FFF;
+  -webkit-backface-visibility: hidden;
+  z-index: 3;
+}
+
+/* line 106, src/common.scss */
+.card-overlay .card-description .button {
+  margin-top: 15px;
+}
+
+/* line 111, src/common.scss */
+.card-overlay .card-title {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  margin-bottom: 0;
+  padding: 15px 10px;
+  background: rgba(0, 150, 134, 0.8);
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  z-index: 2;
+}
+
+/* line 128, src/common.scss */
+.card-overlay:hover:before, .card-overlay:hover .card-description {
+  opacity: 1;
+}
+
+/* line 131, src/common.scss */
+.card-overlay:hover .card-title {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
