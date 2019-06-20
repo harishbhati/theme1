@@ -1,4 +1,4 @@
-<ul class="nav">
+<ul class="nav flex">
     <li><a class="nav-link" href="#">Home</a></li>
     <li><a class="nav-link" href="#">About Us</a></li>
     <li><a class="nav-link" href="#">Services</a></li>

@@ -1,0 +1,19 @@
+/* line 4, src/navigation.scss */
+.header-nav-holder .nav {
+  justify-content: flex-end;
+}
+
+/* line 7, src/navigation.scss */
+.header-nav-holder .nav li a {
+  color: #fff;
+  padding: 0 22px;
+  display: block;
+  line-height: 86px;
+  transition: all 0.5s ease;
+}
+
+/* line 13, src/navigation.scss */
+.header-nav-holder .nav li a:hover, .header-nav-holder .nav li a.active {
+  background: #009686;
+  color: #fff;
+}

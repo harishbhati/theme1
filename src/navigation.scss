@@ -1,0 +1,20 @@
+@import 'variables';
+
+.header-nav-holder{
+    .nav{
+        justify-content: flex-end;
+        li{
+            a{
+                color: $white;
+                padding: 0 22px;
+                display: block;
+                line-height: 86px;
+                transition: all 0.5s ease;
+                &:hover,&.active{
+                    background: $green;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
