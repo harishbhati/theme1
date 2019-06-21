@@ -1,0 +1,115 @@
+/* line 3, src/slider.scss */
+.bx-wrapper {
+  border: none;
+  margin-bottom: 0;
+}
+
+/* line 8, src/slider.scss */
+.bx-wrapper .bx-pager {
+  bottom: 30px;
+  padding-top: 0;
+}
+
+/* line 13, src/slider.scss */
+.bxslider li {
+  position: relative;
+}
+
+/* line 16, src/slider.scss */
+.bxslider .slider-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background: rgba(0, 150, 134, 0.5);
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #fff;
+}
+
+/* line 28, src/slider.scss */
+.bxslider .slider-caption .button {
+  margin-top: 15px;
+}
+
+/* line 34, src/slider.scss */
+.provideus-holder {
+  background-color: #fafafa;
+  padding: 60px 0;
+}
+
+/* line 38, src/slider.scss */
+.services-holder {
+  background: url("../images/bg-counter.jpg");
+  padding: 60px 0;
+  background-attachment: fixed;
+}
+
+/* line 43, src/slider.scss */
+.opening-holder {
+  background: url("../images/single-parallax.jpg");
+  padding: 60px 0;
+  background-attachment: fixed;
+}
+
+/* line 48, src/slider.scss */
+.counter-holder {
+  background: #fff;
+  padding: 60px 0;
+  background-attachment: fixed;
+}
+
+/* line 52, src/slider.scss */
+.counter-holder .counter-block {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* line 56, src/slider.scss */
+.counter-holder .counter {
+  font-size: 40px;
+  line-height: normal;
+  color: #222;
+  font-weight: 500;
+  display: block;
+  position: relative;
+}
+
+/* line 63, src/slider.scss */
+.counter-holder .counter:after {
+  content: '+';
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #009686;
+  vertical-align: middle;
+}
+
+/* line 73, src/slider.scss */
+.service-process-holder {
+  background: url("../images/bg-counter.jpg");
+  padding: 60px 0;
+  background-attachment: fixed;
+}
+
+/* line 77, src/slider.scss */
+.service-process-holder .page-title {
+  margin-bottom: 45px;
+}
+
+/* line 80, src/slider.scss */
+.service-process-holder .process-step {
+  text-align: center;
+}
+
+/* line 82, src/slider.scss */
+.service-process-holder .process-step p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #009686;
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #111;
+}

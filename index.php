@@ -3,9 +3,7 @@
     <body>
         <?php include 'views/header/header.php';?>
         <section class="slider-holder">
-            <div class="container-fluid">
-                <?php include 'views/slider.php';?>
-            </div>
+            <?php include 'views/slider.php';?>
         </section>
         <section class="provideus-holder">
             <div class="container">
@@ -25,6 +23,9 @@
         </section>
         <section class="counter-holder">
             <div class="container">
+                <div class="title-holder text-center">
+                    <h2 class="page-title">Awesome <span class="text-primary">Facts</span></h2>
+                </div>
                 <?php include 'views/counter-block.php';?>
             </div>
         </section>
@@ -46,5 +47,6 @@
             </div>
         </section>
         <?php include 'views/footer/footer.php';?>
+        <?php include 'views/footer/script.php';?>
     </body>
 </html>

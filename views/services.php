@@ -1,4 +1,4 @@
-<ul class="card">
+<ul class="card card-bg grid text-center">
     <li>
         <span class="icon-pencil2 icon-round"></span>
         <h4 class="card-title">Card Title 1</h4>
