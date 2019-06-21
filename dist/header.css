@@ -4,16 +4,17 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 9;
 }
 
-/* line 8, src/header.scss */
+/* line 9, src/header.scss */
 .header-top {
   background: #009686;
   color: #fff;
   padding: 10px 0;
 }
 
-/* line 13, src/header.scss */
+/* line 14, src/header.scss */
 .header-top li a {
   padding-right: 15px;
   color: #fff;
@@ -21,53 +22,53 @@ header {
   transition: all 0.5s ease;
 }
 
-/* line 18, src/header.scss */
+/* line 19, src/header.scss */
 .header-top li a:hover {
   color: #222;
 }
 
-/* line 21, src/header.scss */
+/* line 22, src/header.scss */
 .header-top li a span:before {
   margin-right: 10px;
   vertical-align: middle;
 }
 
-/* line 27, src/header.scss */
+/* line 28, src/header.scss */
 .header-top li:last-child a {
   padding-right: 0;
 }
 
-/* line 33, src/header.scss */
+/* line 34, src/header.scss */
 .header-bottom {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 37, src/header.scss */
+/* line 38, src/header.scss */
 .header-left-right-holder .header-top-left {
   flex: 0 0 40%;
 }
 
-/* line 40, src/header.scss */
+/* line 41, src/header.scss */
 .header-left-right-holder .header-top-right {
   flex: 0 0 60%;
 }
 
-/* line 43, src/header.scss */
+/* line 44, src/header.scss */
 .header-left-right-holder .top-bar-contact {
   justify-content: flex-end;
 }
 
-/* line 48, src/header.scss */
+/* line 49, src/header.scss */
 .logo-nav-holder .header-logo {
   flex: 0 0 20%;
 }
 
-/* line 50, src/header.scss */
+/* line 51, src/header.scss */
 .logo-nav-holder .header-logo .logo {
   max-width: 130px;
 }
 
-/* line 54, src/header.scss */
+/* line 55, src/header.scss */
 .logo-nav-holder .header-nav-holder {
   flex: 0 0 80%;
 }

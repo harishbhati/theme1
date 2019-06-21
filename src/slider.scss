@@ -1,0 +1,91 @@
+@import 'variables';
+
+.bx-wrapper{
+    border:none;
+    margin-bottom: 0;
+
+}
+.bx-wrapper .bx-pager,{
+    bottom: 30px;
+    padding-top: 0;
+}
+.bxslider{
+    li{
+        position: relative;
+    }
+    .slider-caption{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width:50%;
+        background:$green-trans;
+        color: $white;
+        padding: 25px;
+        text-align: center; 
+        border: 2px solid $white;
+
+        .button{
+            margin-top: 15px;
+        }
+    }
+}
+
+.provideus-holder{
+    background-color: #fafafa;
+    padding: 60px 0;
+}
+.services-holder{
+    background: url('../images/bg-counter.jpg');
+    padding: 60px 0;
+    background-attachment: fixed;
+}
+.opening-holder{
+    background: url('../images/single-parallax.jpg');
+    padding: 60px 0;
+    background-attachment: fixed;
+}
+.counter-holder{
+    background: $white;
+    padding: 60px 0;
+    background-attachment: fixed;
+    .counter-block{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .counter{
+        font-size: 40px;
+        line-height: normal;
+        color: $black;
+        font-weight: 500;
+        display: block;
+        position: relative;
+        &:after{
+            content: '+';
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 30px;
+            color: $green;
+            vertical-align: middle;
+        }
+    }
+}
+.service-process-holder{
+    background: url('../images/bg-counter.jpg');
+    padding: 60px 0;
+    background-attachment: fixed;
+    .page-title{
+        margin-bottom: 45px;
+    }
+    .process-step{
+        text-align: center;
+        p{
+            font-size: 20px;
+            font-weight: 600;
+            color: $green;
+            margin-top: 15px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px #111;
+        }
+    }
+}

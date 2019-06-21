@@ -1,7 +1,7 @@
 <ul class="opening grid">
     <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-1.jpg" alt="image1">
         </div>
         <h4 class="card-title">Card Title 1</h4>
         <div class="card-description">
@@ -13,7 +13,7 @@
     </li>
     <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-2.jpg" alt="image1">
         </div>
         <h4 class="card-title">Card Title 2</h4>
         <div class="card-description">
@@ -25,7 +25,7 @@
     </li>
     <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-3.jpg" alt="image1">
         </div>
         <h4 class="card-title">Card Title 3</h4>
         <div class="card-description">
@@ -37,7 +37,7 @@
     </li>
     <li class="card-overlay text-center">
         <div class="image-holder">
-            <img class="card-img" src="../../../theme1/images/card-image.png" alt="image1">
+            <img class="card-img" src="../../../theme1/images/card-4.jpg" alt="image1">
         </div>
         <h4 class="card-title">Card Title 4</h4>
         <div class="card-description">
