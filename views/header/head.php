@@ -12,4 +12,5 @@
     <link href="../../../theme1/dist/navigation.css" rel="stylesheet" type="text/css">
     <link href="../../../theme1/dist/header.css" rel="stylesheet" type="text/css">
     <link href="../../../theme1/dist/slider.css" rel="stylesheet" type="text/css">
+    <link href="../../../theme1/dist/footer.css" rel="stylesheet" type="text/css">
 </head>

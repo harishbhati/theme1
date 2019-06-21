@@ -1,0 +1,71 @@
+/* line 3, src/footer.scss */
+footer {
+  color: #aaa;
+}
+
+/* line 5, src/footer.scss */
+footer a:hover {
+  color: #009686;
+}
+
+/* line 8, src/footer.scss */
+footer .footer-top {
+  background: #222;
+  padding: 15px 0;
+}
+
+/* line 12, src/footer.scss */
+footer .footer-bottom {
+  background: #111;
+  padding: 15px 0;
+  border-top: 1px solid #aaa;
+}
+
+/* line 17, src/footer.scss */
+footer a {
+  color: #aaa;
+}
+
+/* line 20, src/footer.scss */
+footer .nav {
+  display: block;
+}
+
+/* line 22, src/footer.scss */
+footer .nav li {
+  padding-bottom: 10px;
+}
+
+/* line 24, src/footer.scss */
+footer .nav li a {
+  display: block;
+  letter-spacing: 1;
+}
+
+/* line 27, src/footer.scss */
+footer .nav li a:before {
+  content: ">";
+  font-family: 'FontAwesome';
+  margin-right: 10px;
+  font-size: 1.1em;
+}
+
+/* line 37, src/footer.scss */
+footer .basic-info li {
+  padding-bottom: 10px;
+}
+
+/* line 42, src/footer.scss */
+footer .social-links li {
+  margin-right: 10px;
+}
+
+/* line 44, src/footer.scss */
+footer .social-links li:last-child {
+  margin-right: 0;
+}
+
+/* line 47, src/footer.scss */
+footer .social-links li a {
+  font-size: 25px;
+}

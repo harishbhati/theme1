@@ -47,26 +47,36 @@
 }
 
 /* line 39, src/fonts.scss */
+.icon-location2:before {
+  content: "\e948";
+}
+
+/* line 42, src/fonts.scss */
 .icon-user-tie:before {
   content: "\e976";
 }
 
-/* line 42, src/fonts.scss */
+/* line 45, src/fonts.scss */
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+
+/* line 48, src/fonts.scss */
 .icon-google-plus:before {
   content: "\ea8b";
 }
 
-/* line 45, src/fonts.scss */
+/* line 51, src/fonts.scss */
 .icon-facebook:before {
   content: "\ea90";
 }
 
-/* line 48, src/fonts.scss */
+/* line 54, src/fonts.scss */
 .icon-twitter:before {
   content: "\ea96";
 }
 
-/* line 51, src/fonts.scss */
+/* line 57, src/fonts.scss */
 .icon-linkedin2:before {
   content: "\eaca";
 }

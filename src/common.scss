@@ -36,6 +36,25 @@
     font-size: 18px;
     margin-bottom: 45px;
 }
+.hr-primary{
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 0.01em;
+    position: relative;
+    &:after{
+        content: "";
+        background: $green;
+        display: block;
+        height: 1px;
+        margin: 10px 0 0;
+        width: 40px;
+        bottom: -1px;
+        position: absolute;
+    }
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
